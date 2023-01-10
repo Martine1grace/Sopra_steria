@@ -5,12 +5,234 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="build/style.css">
+    <link rel="stylesheet" href="./build/style.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/location-dot?s=solid&f=sharp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <div>
-        <h1 class="text-ellipsis text-rose-300 bg-gray-400 w-full h-screen">hello world</h1>
+<body >
+ <div style="background-image: url('./images/ia-cloud_4-1920.jpg');" class="w-full h-screen relative  bg-no-repeat bg-cover sm:relative ">
+<!-- header -->
+<div class=" hidden md:flex w-full h-10 justify-between  ">
+    <div class="text-sm p-3 text-white space-x-5 ml-16 ">
+        <a href="" class="hover:underline">Careers</a>
+        <a href="" class="hover:underline">NewRooms</a>
     </div>
+
+    <div class="text-white p-4 space-x-20  pr-16 text-sm  float-right  ">
+        <a href=""  class="fa-sharp fa-solid fa-location-dot p-2">Global <i class="fa-solid fa-chevron-down px-10"> </i></a>
+      
+        <a href="">Englisch <i class="fa-solid fa-chevron-down px-3"></i></a>
+    </div>
+</div>
+
+   <!-- second bar -->
+<div class= "hidden bg-white mt-4 mx-16 md:flex justify-between ">
+ 
+<div class="">
+    <img  src="./images/logo.png"   alt="">
+</div>
+<div class="flex  flex-row space-x-5 mx-10 pt-6">
+    <a href="#"> Services</a>
+    <a href="">Industries</a>
+    <a href="">Insight</a>
+    <a href="">Investors</a>
+    <a href="#">About Us</a>
+ <a href="" > <i class="fa-solid fa-magnifying-glass"></i> </a>
+</div>
+
+</div>
+<!-- mobile  btn-->
+
+<div class="md:hidden w-full bg-white space-x-10 flex items-center">
+  <div><img  src="./images/logo.png"  class="h-20 ml-3 mx-10" alt=""></div>
+   <a href="" > <i class="fa-solid fa-magnifying-glass"></i> </a>
+  <button class="outline-none  mr-1 mobile-menu-button">
+  <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
+    x-show="!showMenu"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path d="M4 6h16M4 12h16M4 18h16"></path>
+  </svg>
+</button>
+</div>
+
+
+
+
+<!-- text -->
+<div class="mt-24 ml-16 space-x-10 leading-10 text-4xl">
+    <h1 class="text-white space-x-7 font-bold">
+        Sopra Steria and OVHcloud expand <br>their partnership to industrialise AI<br> using open source principles</h1>
+</div>
+<!-- btn -->
+<div class="ml-16" >
+    <button class=" bg-red-800 hover:bg-white hover:text-black border-red-800 mt-3 h-auto text-center 
+     hover:border-red-800 text-base p-3 text-white font-semibold">Read the release</button>
+</div>
+</div>
+ <!--  -->
+ <section>
+    <div class="pl-32 pr-32 ">
+        
+        <div class="grid grid-cols-2 mt-6 gap-10 "> 
+        <div>
+             <h2 class="ml-6 text-4xl font-semibold ">What's new</h2>
+            <img src="./images/Microsoft-Azure-Cloud-Security.jpg" class="w-full h-full" alt="">
+        </div>
+
+        <div class="mt-9" >
+            <h1 class="hover:text-red-800 ml-3 text-3xl text-left">Sopra Steria achieves the 4<br> Microsoft Azure Cloud Security<br>
+                 advanced specialisations</h1>
+                 <p class="text-gray-400 ml-3 space-x-6">In this ever-growing digital economy, Sopra Steria<br>
+                     Cloud Security Services aim at helping organisations<br>
+                      to deal with the booming cyber threats. This robust set<br> 
+                      of services relying on Microsoft technologies spans<br> from prevention, protection, detection, and reaction <br>
+                      activities.</p>
+
+                      <button class="bg-white mt-6 mb-3  ml-3 h-auto border-black text-center border-2 hover:bg-black
+                       hover:text-white text-base w-40 font-semibold p-3">Read More</button>
+        </div>
+    </div>
+    </div>
+ </section>
+
+ <section class="text-gray-600 pr-32 pl-32  body-font">
+    <div class="container  py-20 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-7 md:w-1/3">
+          <div class="h-full  overflow-hidden">
+            <img class="lg:h-96 md:h-36 w-full object-cover object-center" src="./images/SAP-OVH_440.jpg" alt="blog">
+            <div class="p-6"> 
+
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Sopra Steria and OVHcloud Collaborate to Develop Integrated End-to-End Offering for SAP S/4HANA®</h1>
+              <p class="mt-3 text-gray-400">Oct 4, 2022</p>
+              <p class="leading-relaxed mt-3 mb-3">Hosted by OVHcloud, Sopra Steria announced the creation of a functional demonstrator for SAP S/4HANA deployed on a SecNumCloud infrastructure.</p>
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="p-7 md:w-1/3  ">
+          <div class="h-full   overflow-hidden">
+            <img class="lg:h-96 md:h-36 w-full object-cover object-center" src="./images/redcard.jpg" alt="blog">
+            <div class="p-6">
+             
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Sopra Steria renews its Microsoft Azure Expert Managed Service Provider (MSP) status</h1>
+              <p class="mt-3 text-gray-500">Sep 20, 2022</p>
+              <p class="leading-relaxed mt-3 mb-3">This renewal demonstrates Sopra Steria’s ability to deliver consistent, repeatable high-fidelity managed services on Azure.</p>
+        
+            </div>
+          </div>
+        </div>
+
+        <div class="p-7 md:w-1/3">
+          <div class="h-full  overflow-hidden">
+            <img class="lg:h-96 md:h-96 w-full object-cover object-center" src="./images/avions-440.jpg" alt="blog">
+            <div class="p-6">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Sopra Steria selected as Airbus’ referenced supplier for its engineering and functional design activities</h1>
+              <p class="mt-3 text-gray-500"> Jul 19, 2022</p>
+              <p class="leading-relaxed mt-3 mb-3">After the EMES3 listing announced in January, covering all engineering activities for all Airbus Group divisions, Sopra Steria confirms its expertise by winning several major contracts within the design office and flight test at Airbus.</p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  -->
+  <section>
+    <div >
+        
+        <div class="relative"><img class="pr-32 pl-32 " src="./images//MicrosoftTeams-image-(7)8b02b533e7fd6c36b458ff000034b0d9.png"  alt="">
+            <div class="bg-white flex ml- absolute mb-4 text-lg font-semibold bottom-10 h-40 w-80">  
+               <h2>  "The transformations underway in<br> Cloud and AI technologies” with <br>Béatrice Rollet et Kritika  </h2>
+            <div>  <a href="#"><i class="fa-solid fa-circle-play text-red-800"></i></a></div>
+                    </div>
+        </div>
+    </div>
+  </section>
+  <!--  -->
+  <section>
+    <div class="relative ">
+      <img class="mt-12 pr-32 pl-32" src="./images/corporate-responsibility.jpg" alt="">
+    </div>
+
+  </section>
+  <!--  -->
+  <section class=" body-font overflow-hidden">
+  
+    <div class="container px-5 py-24 mx-auto">
+      <h2 class="ml-16 px-5 text-left  text-2xl space-x-6 leading-10 font-semibold">Financial Report</h2>
+      <div class="lg:w-4/5 mx-auto mt-7 flex flex-wrap">
+        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="./images//URD-1550x515.jpg">
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h1 class="text-gray-900 text-3xl title-font font-semibold mb-1">2021 Universal Registration Document</h1>
+            <p class="text-gray-500 mt-3">Mar 17, 2022</p>
+          <h3 class="mt-6 text-gray-500 space-x-4  tracking-wide  "> <span class="hover:text-red-800 border-b border-red-800 text-lg ">Interactive link   </span>  
+            <span  class="hover:text-red-800 border-b border-red-800 text-lg ">  xHTML Link </span></h3>
+          
+          <div class="flex mt-6 items-center pb-5  mb-5">
+            <button class="bg-white mt-6 mb-3  ml-3 h-auto border-black text-center border-2 hover:bg-black
+            hover:text-white text-base w-40 font-semibold p-3">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+  <footer>
+    <div class="bg-gray-100 w-full h-64">
+      <div class=" flex pr-32 pl-32 space-x-40 ">
+        <div class=""> <a href="" class=""> <img src="./images/log.png" alt="">
+          <p class="" >The world is how we shape it</p></a>  
+        </div>
+        <div class="p-4 space-x-20  pr-16">
+          <a href=""><i class="fa-brands fa-twitter border"></i></a>
+          <a href=""> <i class="fa-brands fa-linkedin border"></i></a>
+          <a href=""> <i class="fa-brands fa-youtube border"></i></a>
+    </div>
+      </div>
+
+      <div class="footer__bottom-content">
+        <div class="pr-32 pl-32  ">
+
+         <nav>
+            <ul class="flex flex-row  text-center">
+              
+             <li><a href="#" class="px-2  font-normal leading-10 ">Manage your cookies</a></li> 
+             <li>
+                <a href="#" class="pr-2  font-normal leading-10 ">Contact us</a>
+             </li>
+             <li>
+                <a href="#">Terms of use</a>
+             </li>
+             <li>
+                <a href="#">Personal data protection charter</a>
+             </li>
+             <li>
+                <a href="#">Warning alert - scam / identify theft</a>
+             </li>
+             <li>
+                <a href="#">Site map</a>
+             </li>
+             <li>
+                <a href="#">Accessibility</a>
+             </li>
+        
+              
+             <li>Sopra Steria 2022©</li>
+           </ul>
+         </nav>
+      </div>
+     </div>
+    </div>
+  </footer>
     
 </body>
 </html>
